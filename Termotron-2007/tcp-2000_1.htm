@@ -1,0 +1,399 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Página normal sem título</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<style><!--body {
+scrollbar-face-color:#316589;
+    scrollbar-highlight-color:#ffffff;
+    scrollbar-3dlight-color:#316589;
+    scrollbar-darkshadow-color:#000000;
+    scrollbar-shadow-color:#000000;
+    scrollbar-arrow-color:#ffffff;
+    scrollbar-track-color:#316589;}
+}--></style><!-- Fim da Barra de Rolagem-->
+<p align="center">&nbsp;</p>
+
+<p align="center"><font color="#D2D2D2" size="1"><script
+language="JavaScript"> 
+var now = new Date(); 
+var hours = now.getHours(); 
+var minutes = now.getMinutes(); 
+var timeValue = "" + ((hours >12) ? hours -12 :hours) 
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += (hours >= 12) ? " P.M." : " A.M." 
+timerRunning = true; 
+
+mydate = new Date(); 
+myday = mydate.getDay(); 
+mymonth = mydate.getMonth(); 
+myweekday= mydate.getDate(); 
+weekday= myweekday; 
+myyear= mydate.getYear(); 
+year = myyear
+
+if(myday == 0) 
+day = " Domingo, " 
+
+else if(myday == 1) 
+day = " Segunda, " 
+
+else if(myday == 2) 
+day = " Terça, " 
+
+else if(myday == 3) 
+day = " Quarta, " 
+
+else if(myday == 4) 
+day = " Quinta, " 
+
+else if(myday == 5) 
+day = " Sexta, " 
+
+else if(myday == 6) 
+day = " Sábado, " 
+
+if(mymonth == 0) 
+month = " de Janeiro de " 
+
+else if(mymonth ==1) 
+month = " de Fevereiro de " 
+else if(mymonth ==2) 
+month = " de Março de " 
+
+else if(mymonth ==3) 
+month = " de April de " 
+
+else if(mymonth ==4) 
+month = " de Maio de "
+
+else if(mymonth ==5) 
+month = " de Junho de " 
+
+else if(mymonth ==6) 
+month = " de Julho de " 
+
+else if(mymonth ==7) 
+month = " de Agosto de " 
+
+else if(mymonth ==8) 
+month = " de Setembro de " 
+
+else if(mymonth ==9) 
+month = " de Outubro de " 
+
+else if(mymonth ==10) 
+month = " de Novembro de " 
+
+else if(mymonth ==11) 
+month = " de Dezembro de " 
+
+document.write("<font size=2 face=verdana><center><b>" + timeValue + " | " + day + myweekday ); document.write( month + ""+ year + "</font></center></b>"); 
+</script><br>
+</font></p>
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td align="center" width="100%"><p align="center"><font
+        color="#D2D2D2" size="1"><br>
+        </font></p>
+        <p align="center"><font color="#D2D2D2" size="4"><br>
+        </font><font color="#FFFFFF" size="4">...</font><font
+        color="#000000" size="7" face="Bandwidth Bandless BRK">TCP-2000</font><font
+        color="#000000" size="1" face="Bandwidth Bandless BRK"><br>
+        </font><font color="#000000" size="4">Contador
+        Programável micro controlado</font><font color="#FFFFFF"
+        size="4">.....<br>
+        </font><br>
+        <br>
+        </p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 4<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>VALOR INICIAL DO CONTADOR
+                PRINCIPAL</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">O valor inicial
+                        do contador pode estar na faixa de 0000
+                        à 9998, caso a contagem seja progressiva,
+                        ou 0001 à 9999, caso a contagem seja
+                        regressiva.<br>
+                        A única restrição para o valor do
+                        campo 4 é que, quando a contagem for
+                        progressiva, o valor deve ser menor que o
+                        valor do campo 5. Já, quando for
+                        programado o modo de contagem regressiva,
+                        o valor deve ser maior que o do campo 5.</font></p>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#D2D2D2"
+        size="4"><br>
+        <br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 5<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>VALOR FINAL DO CONTADOR
+                PRINCIPAL</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">O valor final do
+                        contador pode estar na faixa de 0001 à
+                        9999, caso a contagem seja progressiva,
+                        ou 0000 à 9998, caso a contagem seja
+                        regressiva.<br>
+                        A única restrição para o valor do
+                        campo 5 é que, quando a contagem for
+                        progressiva, o valor deve ser maior que o
+                        valor do campo 4. Já, quando for
+                        programado o modo de contagem regressiva,
+                        o valor deve ser menor que o do campo 4.</font></p>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#D2D2D2"
+        size="4"><br>
+        <br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 6<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>VALOR INICIAL DO CONTADOR
+                AUXILIAR</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">O valor inicial
+                        do contador pode estar na faixa de 0000
+                        à 9998, caso a contagem seja progressiva,
+                        ou 0001 à 9999, caso a contagem seja
+                        regressiva.<br>
+                        A única restrição para o valor do
+                        campo 4 é que, quando a contagem for
+                        progressiva, o valor deve ser menor que o
+                        valor do campo 5. Já, quando for
+                        programado o modo de contagem regressiva,
+                        o valor deve ser maior que o do campo 5.</font></p>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#D2D2D2"
+        size="4"><br>
+        <br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 7<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>VALOR FINAL DO CONTADOR
+                AUXILIAR</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">O valor final do
+                        contador pode estar na faixa de 0001 à
+                        9999, caso a contagem seja progressiva,
+                        ou 0000 à 9998, caso a contagem seja
+                        regressiva.<br>
+                        A única restrição para o valor do
+                        campo 5 é que, quando a contagem for
+                        progressiva, o valor deve ser maior que o
+                        valor do campo 4. Já, quando for
+                        programado o modo de contagem regressiva,
+                        o valor deve ser menor que o do campo 4.</font></p>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#D2D2D2"
+        size="4"><br>
+        <br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 8<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>PROGRAMAÇÃO DO CONTADOR
+                DE LOTE</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">No campo 8,
+                        programa-se o número de lotes desejados.<br>
+                        Este valor pode estar na faixa de 0001 à
+                        9999.<br>
+                        O led do painel, denominado &quot;LOTE&quot;
+                        indica o estado deste contador.<br>
+                        Caso o contador não tenha atingido o
+                        valor programado, o led estará apagado.
+                        Senão, o led aceso.<br>
+                        O led reflete o estado do relé de lote (
+                        interno ).<br>
+                        Quando acionado, este relé não permite
+                        mais a passagem de sinais do sensor para
+                        a placa processadora.<br>
+                        Algumas <u>observações </u>importantes
+                        devem ser feitas <u>sobre o contador de
+                        lotes</u> .<br>
+                        <br>
+                        Em primeiro lugar, ele é um contador de
+                        coincidência,ou seja: o relé é
+                        acionado no momento em que o valor do
+                        lote se IGUALA ao valor programado no
+                        campo número 8.<br>
+                        Além disto, sair do modo de
+                        programação e entrar novamente no mesmo,
+                        causa a desativação incondicional do
+                        relé.Estas características do contador
+                        de lote permitem que se possa continuar a
+                        contagem de lotes, mesmo após o valor
+                        desejado ser atingido.<br>
+                        Obviamente, esta característica somente
+                        será acionada se o operador assim
+                        desejar, saindo para o modo de
+                        programação e voltando ao modo de rodar.<br>
+                        Se você não usar o contador de lote,
+                        basta programar 0000 neste campo. Isto
+                        desliga todos os procedimentos de comando
+                        do relé de lote ( até que outro valor
+                        seja programado ) .</font></p>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#D2D2D2"
+        size="4"><br>
+        <br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="2" cellspacing="1" width="85%"
+        bgcolor="#FFFFFF" bordercolor="#000000"
+        bordercolordark="#000000" bordercolorlight="#000000">
+            <tr>
+                <td align="center" width="100%"><p align="center"><font
+                color="#000000" size="3" face="Verdana"><strong>Campo
+                número 9<br>
+                </strong></font><font color="#316589" size="2"
+                face="Verdana"><strong>VALOR ATUAL DO LOTE</strong></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" width="100%" bgcolor="#FFFFFF"
+                bordercolor="#000000" bordercolordark="#000000"
+                bordercolorlight="#000000"><ul>
+                    <li><p align="left"><font color="#000000"
+                        size="2" face="Verdana">Neste campo,
+                        programa-se o valor inicial do contador
+                        de lote.<br>
+                        Além de visualisá-lo, podemos alterá-lo
+                        a vontade.<br>
+                        A faixa permitida é de 0000 á 9999.<br>
+                        </font></p>
+                    </li>
+                    <li><p align="left"><font color="#316589"
+                        size="2" face="Verdana"><strong>Observação</strong></font><font
+                        color="#000000" size="2" face="Verdana">
+                        : para zerar o contador de lote, basta
+                        gravar ´0´ nos seus dígitos, através
+                        da edição do campo 9.</font></p>
+                    </li>
+                </ul>
+                <p><font color="#000000" size="2" face="Verdana">&nbsp;
+                </font></p>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#FF0000"
+        size="2" face="Verdana">Clique no botão abaixo para ver
+        a continuação</font><font color="#000000" size="2"><br>
+        </font></p>
+        <div align="center"><center><table border="1"
+        cellpadding="0" cellspacing="1" width="28%">
+            <tr>
+                <td width="100%" bgcolor="#316589"><p
+                align="center"><a
+                href="tcp-2000_2.htm"
+                target="frame"><font color="#FFFFFF">Próxima
+                página</font></a></p>
+                </td>
+            </tr>
+        </table>
+        </center></div><p align="center"><font color="#000000"
+        size="2"><br>
+        Todos os direitos reservados.</font><font color="#D2D2D2"
+        size="3" face="arial"><br>
+        </font></p>
+        </td>
+    </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+</body>
+</html>
